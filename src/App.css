@@ -1,0 +1,35 @@
+ 
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  width: 450px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.profile-card h1 {
+  color: #2563eb;
+  text-align: center;
+}
+
+.profile-card h2 {
+  text-align: center;
+  color: #222;
+}
+
+.profile-card h3 {
+  color: #2563eb;
+}
+
+.profile-card p {
+  color: #444;
+  line-height: 1.5;
+}
